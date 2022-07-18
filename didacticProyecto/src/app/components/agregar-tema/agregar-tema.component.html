@@ -1,0 +1,115 @@
+<html>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</html>
+<div id="seccion_header">
+  <h4>Agregar temas</h4>
+</div>
+<nav class="navbar navbar-expand-sm">
+  </nav>
+<br/>
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="/agregar-tema">Registro de temas</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/agregar-actividad">Agregar actividades a temas</a>
+  </li>
+</ul>
+<br/>
+<br/>
+<br/>
+<div id="div-form">
+  <p>Área de Conocimiento</p>
+</div>
+<select class="form-select">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+  </select>
+  <br/>
+  <br/>
+  <br/>
+<div id="div-form">
+  <p>Nombre Tema</p>
+</div>
+  <input id="input-text" type="text" class="form-control form-control-sm" placeholder="Nombre">
+  <br/>
+  <br/>
+  <br/>
+  <div id="div-form">
+    <p>Descripción</p>
+  </div>
+  <input id="input-text" type="text" class="form-control form-control-sm" placeholder="Descripción">
+  <br/>
+  <br/>
+  <button type="button" class="btn">Añadir</button>
+
+<br/>
+<br/>
+<br/>
+<br/>
+  <div class="table">           
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th  style="text-align: center;">Nombre del Tema</th>
+          <th  style="text-align: center;">Descripción</th>
+          <th  style="text-align: center;">Tema Base</th>
+          <th></th>
+          <th  style="text-align: center;">Agregar Actividades</th>
+          <th  style="text-align: center;">Comentarios</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td   style="text-align: center;"><i class="fa-regular fa-circle-check"></i></td>
+          <td style="text-align: center;"><i class="fa-regular fa-trash-can"></i></td>
+          <td style="text-align: center;"><i class="fa-solid fa-circle-plus"></i></td>
+          <td style="text-align: center;"><button  type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            Ver Comentarios
+          </button>
+          <div class="modal" id="myModal">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+          
+                <div class="modal-header">
+                  <h4 class="modal-title">Comentarios</h4>
+                  <button type="button" class="btn" data-bs-dismiss="modal"></button>
+                </div>
+          
+                
+                <div class="modal-body">
+                  Comentario...
+                </div>
+          
+                
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+          
+              </div>
+            </div>
+          </div>
+        </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: center;"></td>
+          <td>
+        </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <br/>
+  <br/>
+ 
+
+

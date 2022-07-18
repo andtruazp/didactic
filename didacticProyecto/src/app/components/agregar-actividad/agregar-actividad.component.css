@@ -1,0 +1,57 @@
+#seccion_header{
+    background-color: #2dd388;
+    height: 60px;
+}
+h4{
+    color: white;
+    padding: 10px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    display:block;
+    margin:auto;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+button{
+    background-color: #2dd388; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 20px;
+    border-radius: 12px
+}
+#div-form{
+    float: left;
+    margin-left: 20px;
+}
+.form-select{
+    float: right;
+    margin-right: 20px;
+    width: 80%;
+}
+#input-text{
+    float: right;
+    margin-right: 20px;
+    width: 80%;
+}

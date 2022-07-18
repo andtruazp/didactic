@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+   
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    background:linear-gradient(#0cb7f2,#9c9c9c);
+    
+}
+.form-login{
+    width: 400px;
+    height: 500px;
+    background: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px 30px;
+    border-radius: 4px;
+    color:black;
+    border: 1px solid black;
+    font-family: Arial,sans-serif;
+}
+.form-login h2{
+   margin: 0;
+   text-align: center;
+   height: 40px;
+   font-size: 25px;
+   font-weight: bold;
+    
+}
+.controls{
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid black;
+    font-size: 15px;
+    
+}
+.controls2{
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+
+
+#olv{
+    margin-top: 20px;
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 10px;
+}
+#re{
+    margin-top: 1px;
+    text-align: center;
+    font-size: 10px;
+}
+
+#reg{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    width: 100%;
+    height: 8%;
+    background: green;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    color: white;
+    border: 1px solid black;
+}
+
+.img {
+   margin: auto;
+   display: block;
+}
+.login-t{
+   margin-top: 12px;
+   font-size: 20px;
+   font-weight: bold ;
+
+}

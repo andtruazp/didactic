@@ -1,0 +1,54 @@
+nav{
+    background:#2dd388;
+    color: white;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #2dd388;
+    color: white;
+}
+#seccion_header{
+    background-color: #2dd388;
+    width: auto;
+    height: 40px;
+}
+h4{
+    color: white;
+    padding: 10px;
+}
+#div-form{
+    float: left;
+    margin-left: 20px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  button{
+    background-color: #2dd388; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 20px;
+    border-radius: 12px
+}
+.form-select{
+    float: right;
+    margin-right: 20px;
+    width: 80%;
+}
+#input-text{
+    float: right;
+    margin-right: 20px;
+    width: 80%;
+}
